@@ -1,0 +1,35 @@
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Generated data
+data/*.csv
+
+# Generated visualizations
+visualizations/*.png
+visualizations/*.jpg
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
